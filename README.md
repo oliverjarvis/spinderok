@@ -1,26 +1,19 @@
-# SpinUp
+# Spinderok
 
-SpinUp is a react hook that boilerplates away the basics of website mediaqueries for most basic designs. You can choose a desired configuration at once for both large, medium and mobile devices.
+Spinderok is a react hook that boilerplates away the basics of website mediaqueries for most basic designs. You can choose a desired configuration at once for both large, medium and mobile devices.
 
 ## Installation
 
 ```bash
+cd app
 npm install https://github.com/oliverjarvis/spinup
+touch spinderok.config.json && cat "{}" > spinderok.config.json
 ```
 
 ## Usage
 
-```typescript
-import foobar
+```ts
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
 ```
 
 ## Contributing
